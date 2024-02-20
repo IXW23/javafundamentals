@@ -11,6 +11,7 @@ public class StringsLab {
         String rhyme = "Jack and Jill went up the hill \nto fetch a pail of water.\nJack fell down and broke his crown \nand Jill came tumbling after.";
         System.out.println(rhyme);
     }
+    
     public static void main(String[] args) {
         StringsLab myStringLab = new StringsLab();
         myStringLab.helloMyName("Hello my name is Ian Wise.");
