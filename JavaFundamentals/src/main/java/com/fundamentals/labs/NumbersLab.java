@@ -25,11 +25,11 @@ public class NumbersLab {
         System.out.println("My float converted to a int is = " + float_to_int);
         System.out.println("My long converted to a short is = " + long_to_short);
     }
-    
+
     public static void main(String[] args) {
         NumbersLab myNumbersLab = new NumbersLab();
         myNumbersLab.numeralSystems();
         myNumbersLab.wideningConversion((byte) 3, (short) 333,  3333);
-        myNumbersLab.narrowingConversion(3_333_333_333D, 333_333_333.33F, 3_333_333L);
+        myNumbersLab.narrowingConversion(3_333_333_333.33D, 333_333_333.33F, 3_333_333L);
     }
 }
