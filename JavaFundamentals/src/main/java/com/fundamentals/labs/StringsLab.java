@@ -13,8 +13,8 @@ public class StringsLab {
     }
     
     public static void main(String[] args) {
-        StringsLab myStringLab = new StringsLab();
-        myStringLab.helloMyName("Hello my name is Ian Wise.");
-        myStringLab.nurseryRhyme();
+        StringsLab myStringsLab = new StringsLab();
+        myStringsLab.helloMyName("Hello my name is Ian Wise.");
+        myStringsLab.nurseryRhyme();
     }
 }
