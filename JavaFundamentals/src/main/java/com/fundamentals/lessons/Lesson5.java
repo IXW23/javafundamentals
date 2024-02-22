@@ -97,6 +97,7 @@ public class Lesson5 {
         System.out.println("My sample3 = " + sample3);
         System.out.println("My sample4 = " + sample4);
     }
+
     public static void main(String[] args) {
         Lesson5 myLesson5 = new Lesson5();
 //        myLesson5.showLocalExample();
