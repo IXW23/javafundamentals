@@ -1,6 +1,6 @@
 package com.fundamentals.lessons;
 
-// Lesson4: All About Strings
+// Lesson 4: All About Strings
 /* String Objects are immutable, which means once
 the value is set, it cannot be changed. Instead,
 it creates a new Object */
@@ -80,7 +80,7 @@ public class Lesson4 {
         return builder1.toString();
     }
 
-    /* A char is a single character Primitive Datatype.
+    /* A char is a single character Primitive Data type.
     * Has a range of U+0000 to U+10FFF. */
     public void iamSingle() {
         char letter = 'I';
