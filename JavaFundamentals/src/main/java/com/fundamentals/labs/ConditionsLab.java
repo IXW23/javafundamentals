@@ -38,6 +38,6 @@ public class ConditionsLab {
         myConditionsLab.ifElseStatement("orange", "orange");
         myConditionsLab.ifElseStatement("orange", "blue");
         System.out.println(myConditionsLab.switchStatement('E'));
-        System.out.println(myConditionsLab.switchStatement('L'));
+        System.out.println(myConditionsLab.switchStatement('I'));
     }
 }
