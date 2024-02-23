@@ -1,6 +1,6 @@
 package com.fundamentals.lessons;
 
-// Lesson 5: Primitive Data Types
+/* Lesson 5: Primitive Data Types */
 // These Data Types don't share State like Objects
 public class Lesson5 {
     /* This Primitive Type has a Value Range of

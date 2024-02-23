@@ -1,6 +1,6 @@
 package com.fundamentals.lessons;
 
-// Lesson 4: All About Strings
+/* Lesson 4: All About Strings */
 /* String Objects are immutable, which means once
 the value is set, it cannot be changed. Instead,
 it creates a new Object */
