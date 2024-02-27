@@ -98,7 +98,7 @@ public class Lesson6 {
         System.out.println("Logical Operator or ||: " + answer);
     }
 
-    /* Increment Operator */
+    // Increment Operator
     public void makeMeIncrease() {
         int able = 10, num1, num2;
         // Post Increment - Value is computed then incremented
@@ -111,7 +111,7 @@ public class Lesson6 {
         System.out.println(num2);
     }
 
-    /* Decrement Operator */
+    // Decrement Operator
     public void makeMeDecrease() {
         int beta = 10, num1, num2;
         // Post Decrement - Value is computed then Decremented
