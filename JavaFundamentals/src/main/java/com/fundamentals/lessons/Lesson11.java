@@ -1,5 +1,4 @@
 package com.fundamentals.lessons;
-
 import java.text.DecimalFormat;
 
 /* Lesson 11 - Using Static */
