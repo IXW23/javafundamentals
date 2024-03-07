@@ -1,12 +1,12 @@
 package com.fundamentals.practice;
 
 public class Boat {
-    private String boatColor;
-    private int boatSize;
-    private String boatFrameType;
+    protected String boatColor;
+    protected int boatSize;
+    protected String boatFrameType;
 
-    public Boat(String boatColor) {
-        this(boatColor, 33, "Wood");
+    public Boat() {
+        this("Blue", 33, "Wood");
     }
 
     public Boat(String boatColor, int boatSize, String boatFrameType) {
@@ -31,11 +31,16 @@ public class Boat {
         System.out.println("The Boat sails.");
     }
 
+    public void boatMotion(int boatSize, String boatColor) {
+        System.out.println("The " + boatSize + "in " + boatColor + " Boat Sails");
+    }
+
     public static void main(String[] args) {
         Boat myBoat = new Boat("Orange", 36, "Steel");
         System.out.println(myBoat.getBoatColor());
         System.out.println(myBoat.getBoatSize());
         System.out.println(myBoat.getBoatFrameType());
         myBoat.boatMotion();
+        myBoat.boatMotion(myBoat.boatSize, myBoat.boatColor);
     }
 }

@@ -1,13 +1,13 @@
 package com.fundamentals.main;
 
 public class House {
-    private String entranceDoorColor;
-    private String foundationType;
-    private String roofStyle;
-    private int totalWindows;
+    protected String entranceDoorColor;
+    protected String foundationType;
+    protected String roofStyle;
+    protected int totalWindows;
 
     public House() {
-        this("Cinder BLocks", "Grey");
+        this("Cinder Blocks", "Grey");
     }
 
     public House(String foundationType, String doorColor) {
@@ -41,7 +41,18 @@ public class House {
         System.out.println("This Door Opens.");
     }
 
-    public static void main(String[] args) {
+    /* Overloaded method - Can only happen when the Method
+    * signature is different between the defined method by
+    * name. The signature of a Method is the name + the
+    * Data Types that represent the parameter argument.
+    * The return type isn't part of the signature for overloading.*/
+    public void doorFunction(String entranceDoorColor) {
+        System.out.println("This " + entranceDoorColor + " Door opens.");
+    }
 
+    public static void main(String[] args) {
+        House myHouse = new House();
+        myHouse.doorFunction();
+        myHouse.doorFunction(myHouse.getEntranceDoorColor());
     }
 }

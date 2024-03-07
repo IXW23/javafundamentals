@@ -3,7 +3,7 @@ package com.fundamentals.main;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
-//        houseExample();
+        houseExample();
         basicStatements();
     }
 
@@ -13,15 +13,15 @@ public class Main {
     This is the Third Line.
      */
 
-//    public static void houseExample() {
-//        House myHouse = new House();
-//        myHouse.doorFunction();
-//        myHouse.entranceDoorColor = "Orange";
-//        myHouse.foundationType = "Cement";
-//        myHouse.roofStyle = "Slate Hip Roof";
-//        myHouse.totalWindows = 33;
-//        System.out.println(myHouse.entranceDoorColor);
-//    }
+    public static void houseExample() {
+        House myHouse = new House();
+        myHouse.doorFunction();
+        myHouse.entranceDoorColor = "Orange";
+        myHouse.foundationType = "Cement";
+        myHouse.roofStyle = "Slate Hip Roof";
+        myHouse.totalWindows = 33;
+        System.out.println(myHouse.entranceDoorColor);
+    }
 
     public static void basicStatements() {
         System.out.println("This is my first sentence.");
