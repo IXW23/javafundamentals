@@ -1,9 +1,9 @@
 package com.fundamentals.practice;
 
 public class Boat {
-    protected String boatColor;
-    protected int boatSize;
-    protected String boatFrameType;
+    private final String boatColor;
+    private final int boatSize;
+    private final String boatFrameType;
 
     public Boat() {
         this("Blue", 33, "Wood");

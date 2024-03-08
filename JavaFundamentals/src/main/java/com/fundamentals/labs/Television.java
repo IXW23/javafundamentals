@@ -50,15 +50,20 @@ public class Television {
     }
 
     public void turnOn() {
+        System.out.println("The Tv is on");
+    }
+
+    public void turnOn(int screenSize) {
         System.out.println("The " + screenSize + "in"+ " TV is on.");
     }
 
     public static void main(String[] args) {
-        Television myTelevison = new Television(60, 300, 8, true);
-        System.out.println(myTelevison.getScreenSize());
-        System.out.println(myTelevison.getPrice());
-        System.out.println(myTelevison.getNumPorts());
-        System.out.println(myTelevison.getIsMountable());
-        myTelevison.turnOn();
+        Television myTelevision = new Television(60, 300, 8, true);
+        System.out.println(myTelevision.getScreenSize());
+        System.out.println(myTelevision.getPrice());
+        System.out.println(myTelevision.getNumPorts());
+        System.out.println(myTelevision.getIsMountable());
+        myTelevision.turnOn();
+        myTelevision.turnOn(myTelevision.screenSize);
     }
 }
