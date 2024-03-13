@@ -14,4 +14,9 @@ public class HousePhone extends Telephone {
     public void sendCall() {
         System.out.println("Sending Phone Call");
     }
+
+    @Override
+    public void endCall() {
+        System.out.println("Ending Phone Call");
+    }
 }
