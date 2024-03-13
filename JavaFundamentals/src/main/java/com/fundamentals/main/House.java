@@ -7,7 +7,7 @@ public class House {
     private final int totalWindows;
 
     public House() {
-        this("Cinder Blocks", "Grey");
+        this("Cinder Blocks", "Gray");
     }
 
     public House(String foundationType, String doorColor) {
@@ -48,6 +48,12 @@ public class House {
     * The return type isn't part of the signature for overloading.*/
     public void doorFunction(String entranceDoorColor) {
         System.out.println("This " + entranceDoorColor + " Door opens.");
+    }
+
+    @Override
+    public String toString() {
+        return "House - Foundation " + getFoundationType() + " Roof Style: " + getRoofStyle() + " Entrance Door Color: " +
+                getEntranceDoorColor() + " Number of Windows: " + getTotalWindows();
     }
 
     public static void main(String[] args) {

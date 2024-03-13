@@ -1,5 +1,5 @@
 package com.fundamentals.practice;
 
-public interface EndCallInterface {
+interface EndCallInterface {
     void endCall();
 }
