@@ -52,7 +52,7 @@ public class Lesson18 {
     // more than one catch
     public void myArrayException() {
         String[] names = {"Dave", "Matt", "Jody"};
-        String[] values = {"243", "424", "542"};
+        String[] values = {"243", "424", "542"} ;
         try {
             byte value = Byte.parseByte(values[1]);
             System.out.println(value);
